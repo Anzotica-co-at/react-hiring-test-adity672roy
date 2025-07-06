@@ -22,9 +22,9 @@ Built with modern frontend tools like **React**, **TailwindCSS**, **Framer Motio
 
 Code is available in branch:
 
-- adity-roy
+- main
 
-🔗 [https://github.com/Anzotica-co-at/react-hiring-test-adity672roy/tree/adity-roy](https://github.com/Anzotica-co-at/react-hiring-test-adity672roy/tree/adity-roy)
+🔗 [https://github.com/Anzotica-co-at/react-hiring-test-adity672roy/](https://github.com/Anzotica-co-at/react-hiring-test-adity672roy/)
 
 ---
 
@@ -39,15 +39,7 @@ cd react-hiring-test-adity672roy
 
 ---
 
-## 2. Switch to the Correct Branch (adity-roy)
-
-```bash
-git checkout adity-roy
-```
-
----
-
-## 3. Install Dependencies
+## 2. Install Dependencies
 
 ```bash
 npm install
@@ -55,7 +47,7 @@ npm install
 
 ---
 
-## 4. Start the Development Server
+## 3. Start the Development Server
 
 ```bash
 npm run dev
@@ -63,7 +55,7 @@ npm run dev
 
 ---
 
-## 5. Open the App in Your Browser
+## 4. Open the App in Your Browser
 
 Visit: [http://localhost:5173](http://localhost:5173)
 
@@ -94,29 +86,31 @@ Visit: [http://localhost:5173](http://localhost:5173)
 
 ## Folder Structure
 
-src/
-├── components/
-│   ├── button/
-│   │   └── Button.jsx              // Reusable button component 
-│   ├── heading/
-│   │   └── Heading.jsx            // Reusable section heading component
-│   ├── sliders/
-│   │   ├── Carousel.jsx           // Custom Hero carousel
-│   │   ├── DestinationSlider.jsx  // Custom Destination-based slider
-│   │   ├── HotelSlider.jsx        // Custom Hotel-themed slider
-│   │   ├── SliderNavigation.jsx   // Custom slider Progress (next, prev buttons)
-│   │   └── SwiperSlider.jsx       // SwiperJS slider
-│   ├── header/
-│   │   ├── Navbar.jsx             // Main navbar container
-│   │   ├── NavbarDesktop.jsx      // Desktop navigation
-│   │   ├── NavbarMobile.jsx       // Mobile navigation
-│   │   ├── NavAccordion.jsx       // Accordion for nested mobile menu
-│   │   └── data.js                // Navigation data
-├── layout/
-│   └── Layout.jsx                 // Shared layout wrapper (includes Navbar)
-├── pages/
-│   └── Home.jsx                   // Home page with all slider sections
-├── App.jsx
-├── index.css                      // tailwindcss
-└── main.jsx
+``` 
+  src/
+  ├── components/
+  │   ├── button/
+  │   │   └── Button.jsx              // Reusable button component
+  │   ├── heading/
+  │   │   └── Heading.jsx            // Reusable section heading component
+  │   ├── sliders/
+  │   │   ├── Carousel.jsx           // Custom Hero carousel
+  │   │   ├── DestinationSlider.jsx  // Custom Destination-based slider
+  │   │   ├── HotelSlider.jsx        // Custom Hotel-themed slider
+  │   │   ├── SliderNavigation.jsx   // Custom slider Progress (next, prev buttons)
+  │   │   └── SwiperSlider.jsx       // SwiperJS slider
+  │   ├── header/
+  │   │   ├── Navbar.jsx             // Main navbar container
+  │   │   ├── NavbarDesktop.jsx      // Desktop navigation
+  │   │   ├── NavbarMobile.jsx       // Mobile navigation
+  │   │   ├── NavAccordion.jsx       // Accordion for nested mobile menu
+  │   │   └── data.js                // Navigation data
+  ├── layout/
+  │   └── Layout.jsx                 // Shared layout wrapper (includes Navbar)
+  ├── pages/
+  │   └── Home.jsx                   // Home page with all slider sections
+  ├── App.jsx
+  ├── index.css                      // tailwindcss
+  └── main.jsx
 
+```
