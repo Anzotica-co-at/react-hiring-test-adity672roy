@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Button from '../button/Button'
 
 const Heading = ({  subHeading,
   heading,
@@ -38,23 +39,7 @@ const Heading = ({  subHeading,
               </p>
             )}
             {buttonText && (
-             <button
-                className={`border text-xs font-medium cursor-pointer px-8 py-3.5 transition duration-1000`}
-                style={{
-                  borderColor,
-                  color: borderColor,
-                }}
-                onMouseEnter={(e) => {
-                  e.target.style.backgroundColor = bgColor;
-                  e.target.style.color = bgColor === "white" ? "black" : "white";
-                }}
-                onMouseLeave={(e) => {
-                  e.target.style.backgroundColor = "transparent";
-                  e.target.style.color = borderColor;
-                }}
-              >
-                {buttonText}
-              </button>
+            <Button text={buttonText} variant="custom" borderColor={borderColor }bgColor={bgColor} />
             )}
           </motion.div>
         )}
