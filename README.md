@@ -94,26 +94,29 @@ Visit: [http://localhost:5173](http://localhost:5173)
 
 ## Folder Structure
 
-    src/
-    ├── components/
-    │ ├── heading/
-    │ │ └── Heading.jsx // Reusable section heading component
-    │ ├── sliders/
-    │ │ ├── Carousel.jsx // Custom Hero carousel
-    │ │ ├── DestinationSlider.jsx // Custom Destination-based slider
-    │ │ ├── HotelSlider.jsx // Custom Hotel-themed slider
-    │ │ ├── SliderNavigation.jsx // Custom slider Progress (next, prev buttons)
-    │ │ └── SwiperSlider.jsx // SwiperJS slider
-    │ ├── header/
-    │ │ ├── Navbar.jsx // Main navbar container
-    │ │ ├── NavbarDesktop.jsx // Desktop navigation
-    │ │ ├── NavbarMobile.jsx // Mobile navigation
-    │ │ ├── NavAccordion.jsx // Accordion for nested mobile menu
-    │ │ └── data.js // Navigation data
-    ├── layout/
-    │ └── Layout.jsx // Shared layout wrapper (includes Navbar)
-    ├── pages/
-    │ └── Home.jsx // Home page with all slider sections
-    ├── App.jsx
-    ├── index.css // tailwindcss
-    └── main.jsx
+src/
+├── components/
+│   ├── button/
+│   │   └── Button.jsx              // Reusable button component 
+│   ├── heading/
+│   │   └── Heading.jsx            // Reusable section heading component
+│   ├── sliders/
+│   │   ├── Carousel.jsx           // Custom Hero carousel
+│   │   ├── DestinationSlider.jsx  // Custom Destination-based slider
+│   │   ├── HotelSlider.jsx        // Custom Hotel-themed slider
+│   │   ├── SliderNavigation.jsx   // Custom slider Progress (next, prev buttons)
+│   │   └── SwiperSlider.jsx       // SwiperJS slider
+│   ├── header/
+│   │   ├── Navbar.jsx             // Main navbar container
+│   │   ├── NavbarDesktop.jsx      // Desktop navigation
+│   │   ├── NavbarMobile.jsx       // Mobile navigation
+│   │   ├── NavAccordion.jsx       // Accordion for nested mobile menu
+│   │   └── data.js                // Navigation data
+├── layout/
+│   └── Layout.jsx                 // Shared layout wrapper (includes Navbar)
+├── pages/
+│   └── Home.jsx                   // Home page with all slider sections
+├── App.jsx
+├── index.css                      // tailwindcss
+└── main.jsx
+
