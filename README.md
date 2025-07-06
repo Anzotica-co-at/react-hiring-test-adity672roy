@@ -72,18 +72,6 @@ Visit: [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## Features
-
-- Fully responsive top navigation with mobile accordion menu
-- **Animated custom sliders** built using **React**, **TailwindCSS**, and **Framer Motion**, along with **SwiperJS-powered carousels** featuring smooth **text and image transitions**
-- Modular and reusable components
-- Mobile-first responsive layout
-- Clean and semantic HTML
-- Interactive UI with hover, scroll, and slide animations
-- Easy to maintain and extend
-
----
-
 ## Folder Structure
 
 ``` 
@@ -114,3 +102,15 @@ Visit: [http://localhost:5173](http://localhost:5173)
   └── main.jsx
 
 ```
+
+---
+
+## Features
+
+- Fully responsive top navigation with mobile accordion menu
+- **Animated custom sliders** built using **React**, **TailwindCSS**, and **Framer Motion**, along with **SwiperJS-powered carousels** featuring smooth **text and image transitions**
+- Modular and reusable components
+- Mobile-first responsive layout
+- Clean and semantic HTML
+- Interactive UI with hover, scroll, and slide animations
+- Easy to maintain and extend
