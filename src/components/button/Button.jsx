@@ -9,7 +9,7 @@ const Button = ({
   if (variant === "custom") {
     return (
       <button
-        className={`border text-xs font-medium px-8 py-3.5 cursor-pointer transition duration-700 ${className}`}
+        className={`border text-sm font-medium px-8 py-3.5 cursor-pointer transition duration-700 ${className}`}
         style={{ borderColor, color: borderColor }}
         onClick={onClick}
         onMouseEnter={(e) => {

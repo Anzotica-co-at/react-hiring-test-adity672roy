@@ -37,7 +37,7 @@ const Heading = ({  subHeading,
             className="md:w-[45%]  w-full"
           >
             {description && (
-              <p className="font-serif font-light leading-relaxed mb-6">
+              <p className="font-serif text-base font-light leading-relaxed mb-6">
                 {description}
               </p>
             )}
