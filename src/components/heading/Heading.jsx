@@ -8,13 +8,15 @@ const Heading = ({  subHeading,
   borderColor = "white",
   bgColor = "white", }) => {
   return (
-    <section className="w-full px-4   md:px-10 md:py-10 pt-6">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-4">
+    <section className="w-full px-4 md:px-10 md:py-10 pt-6">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start overflow-hidden justify-between gap-4">
+       
         <motion.div
           initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6 }}
-          className={`${
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6,ease : "linear" }}
+          viewport={{ once: true }}
+          className={` ${ 
             description || buttonText ? "md:w-[55%] w-full" : "w-full"
           }`}
         >
@@ -29,9 +31,10 @@ const Heading = ({  subHeading,
         {(description || buttonText) && (
           <motion.div
             initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="md:w-[45%] w-full"
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2,ease : "linear" }}
+            className="md:w-[45%]  w-full"
           >
             {description && (
               <p className="font-serif font-light leading-relaxed mb-6">
