@@ -14,7 +14,7 @@ Built with modern frontend tools like **React**, **TailwindCSS**, **Framer Motio
 
 ## Live Demo
 
-🔗 [https://your-vercel-or-netlify-link.vercel.app](https://your-vercel-or-netlify-link.vercel.app)
+🔗 [anzotica.vercel.app](anzotica.vercel.app)
 
 ---
 
