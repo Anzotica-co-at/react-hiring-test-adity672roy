@@ -102,6 +102,7 @@ Visit: [http://localhost:5173](http://localhost:5173)
     │ │ ├── Carousel.jsx // Custom Hero carousel
     │ │ ├── DestinationSlider.jsx // Custom Destination-based slider
     │ │ ├── HotelSlider.jsx // Custom Hotel-themed slider
+    │ │ ├── SliderNavigation.jsx // Custom slider Progress (next, prev buttons)
     │ │ └── SwiperSlider.jsx // SwiperJS slider
     │ ├── header/
     │ │ ├── Navbar.jsx // Main navbar container
